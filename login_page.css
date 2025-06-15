@@ -1,0 +1,255 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+/* Login Box */
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Amazon Logo */
+.logo img {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+/* Heading */
+.login-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* Form Elements */
+form {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+form label {
+    font-size: 0.9rem;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+/* Buttons */
+.btn {
+    width: 100%;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #111;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ddb347;
+}
+
+.create-account-btn {
+    background-color: #e7e9ec;
+    border: 1px solid #adb1b8;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.create-account-btn:hover {
+    background-color: #d5d7da;
+}
+
+/* Terms and Links */
+.terms {
+    font-size: 0.8rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.terms a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .login-box {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .btn,
+    .create-account-btn {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+
+/* NAVBAR SECTION CSS */
+.navbar{
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    .nav-logo{
+    height: 50px;
+    width: 100px;
+    }
+    .logo{
+    background-image: url("zon.png");
+    background-size: cover;
+    height: 30px;
+    width: 99px;
+    margin: 5px;
+    }
+    .border{
+    border: 2px solid transparent;
+    }
+    .border:hover{
+    border: 2px solid white;
+    }
+    /* box 2 */
+    .add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    
+    }
+    .add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+    }
+    .add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    }
+    /* box 3 */
+    .nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    }
+    
+    .search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    border: none;
+    }
+    
+    .search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+    }
+    
+    .search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #fba029;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    }
+    .nav-search:hover{
+    border: 2px solid orange;
+    }
+    
+    
+    /* box4 */
+    span{
+    font-size: 0.7rem;
+    
+    }
+    
+    nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+    
+    }
+    
+    /* box 6 */
+    .nav-cart i {
+    font-size: 30px;
+    }
+    
+    .nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    
+    }
+    /* pannel */
+    .pannel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    
+    .pannel-ops p {
+    display: inline;
+    margin-left: 15px;
+    }
+    
+    .pannel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    }
+    
+    .pannel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Login</title>
+    <link rel="stylesheet" href="login_page.css">
+</head>
+<body>
+    <!--   HEADER NAVBAR SECTION -->
+<header>
+    <div class="navbar">
+        <div class="nav-logo border" ></div>
+            <div class="logo"></div>
+            
+        
+        <a href="#" class="nav-address border" style="color: aliceblue;">
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add-second">India</p>
+            </div>
+        </a>
+        <div class="nav-search">
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input placeholder="Search Amazon" class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <a href="login_page.html" class="nav-signin border" style="color: aliceblue;">
+           
+            <p class="nav-second">Account & Lists</p>
+        </a>
+        <a href="#" class="nav-return border" style="color: aliceblue;">
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+        </a>
+        <a href="#" class="nav-cart border" style="color: aliceblue;">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </a>
+    </div>
+
+    <div class="pannel">
+        <div class="pannel-all">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="pannel-ops">
+           <a href="DEALS\TODAYS_DEALS.html" style="color: aliceblue;"><p>Today's Deals</p></a>
+            <p>Customer Services</p>
+            <p>Registry</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+
+        </div>
+        <div class="pannel-deals">
+            Shop deals in Electronics
+        </div>
+    </div>
+</header>
+<!-- NAVBAR SECTION ENDS -->
+    <div class="login-container">
+        <div class="login-box">
+            <div class="logo">
+                <img src="zon.png" alt="Amazon Logo">
+            </div>
+            <h2>Sign-In</h2>
+            <form id="login-form">
+                <label for="email">Email or mobile phone number</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email" required>
+                <button type="button" class="btn" onclick="redirectToAmazon()">Sign-In</button>
+            </form>
+            <p class="terms">
+                By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.
+            </p>
+            <hr>
+            <p>New to Amazon?</p>
+            <button class="create-account-btn">Create your Amazon account</button>
+        </div>
+    </div>
+    <script>function redirectToAmazon() {
+        window.location.href = "amazon.html"; // Replace with the correct path to your Amazon HTML page
+    }
+</script>
+</body>
+</html>
